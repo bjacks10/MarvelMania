@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-chevron-right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-copy-3" transform="translate(-1125.000000, -1636.000000)">
+            <g id="Group-11" transform="translate(0.000000, 419.000000)">
+                <g id="Group-8" transform="translate(299.000000, 1201.000000)">
+                    <g id="18x18/arrow-right-big" transform="translate(819.000000, 13.000000)">
+                        <rect id="backdrop" fill="#FFFFFF" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M7.38717412,4.61282588 C7.04871974,4.27437149 7.04871974,3.72562851 7.38717412,3.38717412 C7.72562851,3.04871974 8.27437149,3.04871974 8.61282588,3.38717412 L16.6128259,11.3871741 C16.9512803,11.7256285 16.9512803,12.2743715 16.6128259,12.6128259 L8.61282588,20.6128259 C8.27437149,20.9512803 7.72562851,20.9512803 7.38717412,20.6128259 C7.04871974,20.2743715 7.04871974,19.7256285 7.38717412,19.3871741 L14.7743482,12 L7.38717412,4.61282588 Z" id="chevron" fill="#1654CB"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

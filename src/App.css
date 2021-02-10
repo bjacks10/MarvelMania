@@ -1,0 +1,299 @@
+.App {
+	text-align: center;
+}
+
+
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+.headers{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	max-width: 100% !important;
+}
+
+.nav-item {
+	margin-right: 12px;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.dropdown-item {
+	margin-right: 4px;
+}
+
+.dropdown-menu {
+	height: auto;
+	max-height: 200px;
+	overflow-x: hidden;
+	background-color: #e3e0e0;
+}
+
+.carousel-item {
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+html, body {
+	margin: 0px;
+	padding: 0px;
+	max-width: 100% !important;
+}
+
+.bg-image-home {
+	/* The image used */
+	background-image: url(./images//HeaderPics/MarvelLogo.webp);
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/* Add the blur effect */
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-position-y: top;
+	background-repeat: no-repeat;
+	/* Full height */
+	height: 300px;
+	width:100%;  
+  }
+  .bg-text-home {
+	background-color: rgb(36,46,134);
+	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
+	color: white;
+	font-weight:bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -124%);
+	z-index: 2;
+	width: 110%;
+	padding-top: 117px;
+	padding-bottom: 117px;
+	justify-content: center;
+	text-align: center;
+  }
+
+  .bg-image-about {
+	/* The image used */
+	background-image: url(./images//HeaderPics/aboutHeader.png);
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/* Add the blur effect */
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-position-y: top;
+	background-repeat: no-repeat;
+	/* Full height */
+	height: 300px;
+	width:100%; 
+	overflow: hidden; 
+  }
+  .bg-text-about {
+	background-color: rgb(36,46,134);
+	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
+	color: white;
+	font-weight:bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -124%);
+	z-index: 2;
+	width: 110%;
+	padding-top: 118px;
+	padding-bottom: 116px;
+	justify-content: center;
+	text-align: center;
+  }
+  .bg-image-movies {
+	/* The image used */
+	background-image: url(./images//HeaderPics/marvelHeader.jpg);
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/* Add the blur effect */
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-position-y: top;
+	/* Full height */
+	height: 300px;
+  }
+  .bg-text-movies {
+	background-color: rgb(36,46,134);
+	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
+	color: white;
+	font-weight:bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -124%);
+	z-index: 2;
+	width: 110%;
+	padding-top: 116px;
+	padding-bottom: 118px;
+	justify-content: center;
+	text-align: center;
+  }
+  .bg-image-favorites {
+	/* The image used */
+	background-image: url(./images//HeaderPics/faveHeader.png);
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/* Add the blur effect */
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-position-y: top;
+	/* Full height */
+	height: 300px;
+	width:110%; 
+  }
+  .bg-text-favorites {
+	background-color: rgb(36,46,134);
+	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
+	color: white;
+	font-weight:bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -124%);
+	z-index: 2;
+	width: 110%;
+	padding-top: 117px;
+	padding-bottom: 117px;
+	justify-content: center;
+	text-align: center;
+  }
+
+.btnFaves {
+	width: 260px;
+	height: 60px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.btnFaves:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movieInfoPage {
+	width: 840px;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+}
+.movieInfoTitle{
+	text-align: left;
+	color: "#242E86";
+	font-weight:normal ;
+	margin-bottom: 50px;
+}
+
+.movieInfoPara {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.MIh8{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.BonusVids{
+	background-image: url(./images/HeaderPics/BloopersPic.png);
+
+}
+
+.BonusVidsBTS{
+	background-image: url(./images/HeaderPics/BehindTheScenesPic.png);
+	
+}
+
+.BonusVidsDS{
+	background-image: url(./images/HeaderPics/DeletedScenesPic.png);
+	
+}
+
+.Natasha{
+	background-image: url(./images//MeetTheCharacters/BlackWidow.png);
+}
+.Clint{
+	background-image: url(./images//MeetTheCharacters/Hawkeye.png);
+}
+.Bruce{
+	background-image: url(./images//MeetTheCharacters/BruceBanner.jpg);
+}
+.Thor{
+	background-image: url(./images//MeetTheCharacters/Thor.png);
+}
+.Steve{
+	background-image: url(./images//MeetTheCharacters/SteveRogers.png);
+}
+.Tony{
+	background-image: url(./images//MeetTheCharacters/TonyStark.jpg);
+}
+.Rhodey{
+	background-image: url(./images//MeetTheCharacters/Rhodey.png);
+}
+.Panther{
+	background-image: url(./images//MeetTheCharacters/BlackPanther.png);
+}
+.Doctor{
+	background-image: url(./images//MeetTheCharacters/DoctorStrange.png);
+}
+.Witch{
+	background-image: url(./images//MeetTheCharacters/ScarletWitch.png);
+}
+.Vision{
+	background-image: url(./images//MeetTheCharacters/Vision.png);
+}
+.Spider{
+	background-image: url(./images//MeetTheCharacters/Spiderman.png);
+}
+
+.footerHolder {
+	padding: 0px 30px 30px 30px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.charPara {
+	max-width: 150px;
+}
+
+.btnBonus {
+	height: 300px;
+	margin: auto;
+  width: 300px;
+}
+
+.btnBonus:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
