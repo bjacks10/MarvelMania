@@ -4,4 +4,4 @@ Full stack web application that provides information and updates regarding the m
 
 ## https://marvelmania.herokuapp.com
 
-![MarvelMania]https://github.com/bjacks10/MarvelMania/blob/master/MarvelManiaPic.png
+![MarvelMania](https://github.com/bjacks10/MarvelMania/blob/master/MarvelManiaPic.png)
