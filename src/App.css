@@ -64,7 +64,6 @@ html, body {
 	background-attachment: fixed;
 	background-position: center;
 	background-position-y: top;
-	background-repeat: no-repeat;
 	/* Full height */
 	height: 300px;
 	width:100%; 
@@ -99,27 +98,10 @@ html, body {
 	background-attachment: fixed;
 	background-position: center;
 	background-position-y: top;
-	background-repeat: no-repeat;
 	/* Full height */
 	height: 300px;
 	width:100%; 
 	overflow: hidden; 
-  }
-  .bg-text-about {
-	background-color: rgb(36,46,134);
-	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
-	color: white;
-	font-weight:bolder;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -124%);
-	z-index: 2;
-	width: 110%;
-	padding-top: 118px;
-	padding-bottom: 116px;
-	justify-content: center;
-	text-align: center;
   }
   .bg-image-movies {
 	/* The image used */
@@ -137,22 +119,6 @@ html, body {
 	/* Full height */
 	height: 300px;
   }
-  .bg-text-movies {
-	background-color: rgb(36,46,134);
-	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
-	color: white;
-	font-weight:bolder;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -124%);
-	z-index: 2;
-	width: 110%;
-	padding-top: 116px;
-	padding-bottom: 118px;
-	justify-content: center;
-	text-align: center;
-  }
   .bg-image-favorites {
 	/* The image used */
 	background-image: url(./images//HeaderPics/faveHeader.png);
@@ -169,22 +135,6 @@ html, body {
 	/* Full height */
 	height: 300px;
 	width:110%; 
-  }
-  .bg-text-favorites {
-	background-color: rgb(36,46,134);
-	background-color: rgba(36,46,134, 0.3); /* Black w/opacity/see-through */
-	color: white;
-	font-weight:bolder;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -124%);
-	z-index: 2;
-	width: 110%;
-	padding-top: 117px;
-	padding-bottom: 117px;
-	justify-content: center;
-	text-align: center;
   }
 
 .btnFaves {
