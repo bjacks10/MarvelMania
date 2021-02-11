@@ -191,7 +191,7 @@ class Movies extends Component {
                     </div>
                         <div className="bg-text">
                             <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
-                            <h1 style={{marginRight:"645px", fontSize:"50px"}} className="header-text">Movies</h1>
+                            <h1 style={{marginRight:"625px", fontSize:"50px"}} className="header-text">Movies</h1>
                             <img src={moviesIcon}></img>
                             </div>
                         </div>

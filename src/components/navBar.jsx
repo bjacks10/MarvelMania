@@ -32,9 +32,6 @@ const NavBar = ({user}) => {
        </ul>
        </div>
        </div>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
         {!user && (
         <React.Fragment>
         <div style={{position:"relative", maxWidth:"fit-content", float:"right"}} className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +48,7 @@ const NavBar = ({user}) => {
         )}
         {user && (
         <React.Fragment>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbar">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item">
             <div className="dropdown">
