@@ -6,8 +6,8 @@ import slide4 from '../images/MeetTheCharacters/slide4.png';
 
 const CharacterFeatures = () => {
     return ( 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+  <div style={{maxHeight:"407px"}} class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block" src={slide1} alt="First slide"/>
     </div>

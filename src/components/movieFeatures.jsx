@@ -21,7 +21,7 @@ import LokiPoster from "../images/UpcomingMoviePics/LokiPoster.jpg";
 
 const MoviesFeatures = () => {
     return ( 
-        <div style={{width:"840px", maxWidth:"840px", margin:"auto", marginTop:"20px" }} id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel" >
+        <div style={{width:"840px", maxWidth:"840px", margin:"auto", marginTop:"20px", maxHeight:"600px", height:"600px" }} id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel" >
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators active" data-slide-to="0"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -31,7 +31,7 @@ const MoviesFeatures = () => {
                 <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
             </ol>
-            <div style={{margin:"auto"}} className="carousel-inner">
+            <div style={{margin:"auto", maxHeight:"600px"}} className="carousel-inner">
                 <div className="carousel-item active" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" href="#collapseExample">
                     <div style={{width:"840px"}} className="collapse" id="collapseExample" >
                         <div className="card card-body">A film about Natasha Romanoff in her quests between the films Civil War and Infinity War. At birth the Black Widow "aka Natasha Romanova" is given to the KGB, which grooms her to become its ultimate operative.</div>
