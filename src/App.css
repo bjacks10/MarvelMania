@@ -67,7 +67,9 @@ html, body {
 	background-repeat: no-repeat;
 	/* Full height */
 	height: 300px;
-	width:100%;  
+	width:100%; 
+	position: relative;
+	z-index: 1; 
   }
   .bg-text-home {
 	background-color: rgb(36,46,134);
@@ -75,15 +77,13 @@ html, body {
 	color: white;
 	font-weight:bolder;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -124%);
-	z-index: 2;
-	width: 110%;
-	padding-top: 117px;
-	padding-bottom: 117px;
-	justify-content: center;
-	text-align: center;
+	height: 300px;
+    top: 86px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .bg-image-about {

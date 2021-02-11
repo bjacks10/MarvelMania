@@ -18,12 +18,12 @@ class Home extends Component {
                     <div style={{overflow:"hidden"}}>
                     <div className="bg-image-home"/>
                     </div>
-                    <div>
-                        <div className="bg-text-home row">
-                            <h1 style={{marginRight:"603px", fontSize:"50px"}} className="header-text">Home</h1>
+                        <div className="bg-text-home">
+                            <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
+                            <h1 style={{marginRight:"650px", fontSize:"50px"}} className="header-text">Home</h1>
                             <img src={homeIcon}></img>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <div className="container">
                 <div style={{width:"840px", justifyContent:"center", margin:"auto", marginTop:"50px"}}>
