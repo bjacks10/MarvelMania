@@ -3,7 +3,7 @@ import MoviesFeatures from './movieFeatures';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import { Link } from "react-router-dom";
-import homeIcon from "../icons/about-icon.svg";
+import aboutIcon from "../icons/about-icon.svg";
 
 class About extends Component {
     state = { 
@@ -19,9 +19,11 @@ class About extends Component {
                     <div className="bg-image-about"></div>
                     </div>
                     <div>
-                        <div className="bg-text-about row">
-                            <h1 style={{fontSize:"50px", marginRight:"600px"}} className="header-text">About</h1>
-                            <img src={homeIcon}></img>
+                        <div className="bg-text">                            
+                        <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
+                            <h1 style={{fontSize:"50px", marginRight:"650px"}} className="header-text">About</h1>
+                            <img src={aboutIcon}></img>
+                        </div>
                         </div>
                     </div>
                 </div>

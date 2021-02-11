@@ -189,13 +189,13 @@ class Movies extends Component {
                     <div style={{overflow:"hidden"}}>
                     <div className="bg-image-movies"/>
                     </div>
-                    <div>
-                        <div className="bg-text-movies row">
-                            <h1 style={{marginRight:"580px", fontSize:"50px"}} className="header-text">Movies</h1>
+                        <div className="bg-text">
+                            <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
+                            <h1 style={{marginRight:"645px", fontSize:"50px"}} className="header-text">Movies</h1>
                             <img src={moviesIcon}></img>
+                            </div>
                         </div>
-                    </div>
-                </div> 
+]                </div> 
                 <div className="container"> 
                 <div style={{width:"840px", justifyContent:"center", margin:"auto", marginTop:"50px"}}>
                 <div style={{width:"840px", justifyContent:"center", margin:"auto", marginTop:"50px", marginBottom:"30px"}} className="row">

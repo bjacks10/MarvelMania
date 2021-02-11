@@ -18,7 +18,7 @@ class Home extends Component {
                     <div style={{overflow:"hidden"}}>
                     <div className="bg-image-home"/>
                     </div>
-                        <div className="bg-text-home">
+                        <div className="bg-text">
                             <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
                             <h1 style={{marginRight:"650px", fontSize:"50px"}} className="header-text">Home</h1>
                             <img src={homeIcon}></img>

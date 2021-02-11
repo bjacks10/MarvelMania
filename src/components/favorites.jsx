@@ -97,9 +97,11 @@ class Favorites extends Movies {
                     <div className="bg-image-favorites"/>
                     </div>
                     <div>
-                        <div className="bg-text-favorites row">
-                            <h1 style={{marginRight:"540px", fontSize:"50px"}} className="header-text">Favorites</h1>
+                        <div className="bg-text">
+                            <div style={{justifyContent:"center", marginTop:"100px"}} className="row">
+                            <h1 style={{marginRight:"620px", fontSize:"50px"}} className="header-text">Favorites</h1>
                             <img src={favoritesIcon}></img>
+                            </div>
                         </div>
                     </div>
                 </div>
